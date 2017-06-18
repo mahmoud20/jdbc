@@ -1,0 +1,158 @@
+
+.slider img{
+	width: 100%;
+}
+
+.logo img{
+       margin-left: 32%;
+    margin-top: 10px;
+    width: 54%;
+}
+
+
+
+
+.navbar-toggle {
+    
+    background-color: rgb(224, 56, 86);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+@media (max-width:1200px){
+.logo img {
+      margin-left: 18%;
+    margin-top: 43px;
+    width: 54%;
+}
+}
+@media (max-width: 767px){
+
+.logo img {
+       margin-left: 17%;
+    margin-top: 14px;
+    width: 30%;
+}
+}
+
+.logo .collapse li a{
+      color: #fff;
+    text-decoration: none;
+    background: #8d1b34;
+    margin-left: 2px;
+    margin-top: 0px;
+    max-height: 25px;
+    padding-top: 1px;
+    width: 99px;
+    font-size: 19px;
+}
+.logo .collapse .active{
+	background: #f88956;
+}
+.logo h2{
+	        color: #cb203b;
+    margin-left: 64%;
+   
+}
+
+
+/*Start slider section*/
+    .slider h2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 23%;
+    color: #FFE;
+    font-size: 190%;
+}
+
+.slider p{
+	    position: absolute;
+    margin-top: 43%;
+    margin-left: 59%;
+    font-size: 150%;
+    color: #FFF;
+}
+@media(max-width: 776px){
+	.slider p{
+		    font-size: 75%;
+	
+	}
+	.slider h2{
+			margin-left: 20%;
+		    font-size: 100%;
+	}
+}
+/*End slider section*/
+/*Start price section*/
+    .price .left{
+    	margin-top: 15px;
+    	background-color: #fff8f5;
+    }
+    .price .detail{
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    
+    background: #ecd4c2;
+    margin-bottom: 12px;
+}
+.price p span{
+	font-size: 21px;
+    margin-left: 15%;
+}
+/*End price section*/    
+
+/*Start Contact Section*/
+	.contact button{  
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    background: #ecd4c2;
+    margin-top: 22px;
+    width: 14%;
+    height: 42px;
+   
+}
+.contact{
+	background-color: #fff8f5;
+}
+.contact  h3{
+	color:#a24458;
+}
+.contact .left{
+	   /* margin: 65px 27px 0 -174px;*/
+}
+
+.contact .right form input{
+	display: inline-block;
+}
+.contact .right form textarea{
+	width: 70%;
+}
+.contact .right form button{
+	background-color: #a24458;
+	width: 20%;
+	float: right;
+	color: #FFF;
+	border: none;
+	margin-right:20%; 
+	margin-bottom: 10px;
+}
+
+.contact .left .fa-2x {
+    
+    margin: 9px;
+}
+ /*End Contact Section*/   
+
+/*Start footer */
+footer{
+	    min-height: 69px;
+    background-color: #a24458;
+    padding-top: 21px;
+    font-size: x-large;
+}
+footer p{
+	margin-bottom: 0;
+}
+/*End footer*/
+
+
+
